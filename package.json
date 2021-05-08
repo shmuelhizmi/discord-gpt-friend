@@ -1,0 +1,25 @@
+{
+    "name": "discord-buddy",
+    "version": "0.0.1",
+    "private": true,
+    "author": {
+        "name": "shmuelhizmi"
+    },
+    "scripts": {
+        "start": "ts-node src --script-mode"
+    },
+    "dependencies": {
+        "@discordjs/opus": "^0.5.0",
+        "@google-cloud/speech": "^4.5.0",
+        "@google-cloud/text-to-speech": "^3.2.0",
+        "@hellobardo/open-ai-sdk": "^1.0.7",
+        "discord.js": "12.5.3",
+        "dotenv": "9.0.0",
+        "read-all-stream": "^3.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^15.0.2",
+        "ts-node": "9.1.1",
+        "typescript": "4.2.4"
+    }
+}
